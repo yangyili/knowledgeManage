@@ -1,0 +1,62 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.add-work {
+    width: 550px;
+}
+.select-all {
+    width: 40px;
+    height: 40px;
+    background: url("") no-repeat 0 0;
+}
+.input-size {
+    width: 480px;
+    height: 35px;
+    padding: 10px;
+    line-height: 35px;
+    font-size: 16px;
+}
+.input-size::-webkit-input-placeholder{
+    font-size: 16px;
+    font-family: "Microsoft Yahei", "\5FAE\8F6F\96C5\9ED1", Tahoma, Arial, Helvetica, STHeiti, "Hiragino Sans GB";
+}
+.none {
+    display: none;
+}
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
