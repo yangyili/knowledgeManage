@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="../js/print_text.js"></script>
+
 </head>
 <body ng-app="app">
-    <div>
-        <a class="select-all" href="" ng-click="" ng-show=""></a>
-        <input type="text" placeholder="What needs to be done" />
+    <div id="print_text">
     </div>
 </body>
 </html>
+<script>
+    $(document).ready(function() {
+        $('#print_text').print_hello();
+    });
+</script>
